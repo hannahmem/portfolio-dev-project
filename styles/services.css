@@ -1,0 +1,22 @@
+.services {
+    background-color: var(--color-gray-100);
+
+    h3 {
+        margin-top: 4.5rem;
+        color: var(--color-red);
+    }
+
+    p {
+        flex: 1;
+        padding-top: 0.5rem;
+    }
+
+    .box {
+        width: 17.5rem;
+        border: 2px solid var(--color-gray-200);
+        padding: 1.25rem;
+    }
+
+    padding-bottom: 7.5rem;
+}
+

@@ -28,10 +28,25 @@
     --text-sm: 14px/140% var(--font-family-maven);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
 }
 
 h3 {
@@ -39,12 +54,16 @@ h3 {
 }
 
 h2 {
+    color: var(--color-gray-600);
     font: var(--title-md);
+    margin-bottom: 3.5rem;
+    margin-top: 0.5rem;
 }
 
 h4 {
     font: var(--title-sm);
-    color: var(--color-gray-600)
+    color: var(--color-gray-600);
+    padding-top: 1.25rem;
 }
 
 p {
