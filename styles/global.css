@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;
+    --color-gray-100: #0D0E11;
+    --color-gray-200: #16181D;
+    --color-gray-300: #292C34;
+    --color-gray-400: #878EA1;
+    --color-gray-500: #C0C4CE;
+    --color-gray-600: #E2E4E9;
+
+    --font-family-asap: "Asap", sans-serif;
+    --font-family-incon: "Inconsolata", monospace;
+    --font-family-maven: "Maven", sans-serif; 
+    --h1: 600 56px/120% var(--font-family-asap);
+    --h4: 600 24px/120% var(--font-family-asap);
+    --h6: 600 16px/120% var(--font-family-asap);
+    --subtitle: 20px/120% var(--font-family-incon);
+    --text-md: 16px/140% var(--font-family-maven);
+    --text-sm: 14px/140% var(--font-family-maven);
+}
+
+/* body {
+    background-color: var(--color-gray-300);
+} */
+/* footer {
+    background-image: url(/assets/Background_Contacts.png);
+} */
