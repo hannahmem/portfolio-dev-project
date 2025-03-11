@@ -1,9 +1,6 @@
 header {
     .container {
         background: url('/assets/Background_Intro.png') no-repeat center/cover;
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
     }
 
     .container-header {
@@ -32,7 +29,6 @@ header {
 
     h3 {
         padding-top: 3.5rem;
-        font: var(--subtitle);
         color: var(--color-gray-500);
     }
 
@@ -42,8 +38,6 @@ header {
 
     p {
         text-align: center;
-        font: var(--text-sm);
-        color: var(--color-gray-400);
         padding-bottom: 5rem;
     }
 

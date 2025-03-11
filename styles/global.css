@@ -21,16 +21,33 @@
     --font-family-incon: "Inconsolata", monospace;
     --font-family-maven: "Maven", sans-serif; 
     --h1: 600 56px/120% var(--font-family-asap);
-    --h4: 600 24px/120% var(--font-family-asap);
-    --h6: 600 16px/120% var(--font-family-asap);
+    --title-md: 600 24px/120% var(--font-family-asap);
+    --title-sm: 600 16px/120% var(--font-family-asap);
     --subtitle: 20px/120% var(--font-family-incon);
     --text-md: 16px/140% var(--font-family-maven);
     --text-sm: 14px/140% var(--font-family-maven);
 }
 
-/* body {
-    background-color: var(--color-gray-300);
-} */
-/* footer {
-    background-image: url(/assets/Background_Contacts.png);
-} */
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+h3 {
+    font: var(--subtitle);
+}
+
+h2 {
+    font: var(--title-md);
+}
+
+h4 {
+    font: var(--title-sm);
+    color: var(--color-gray-600)
+}
+
+p {
+    font: var(--text-sm);
+    color: var(--color-gray-400);
+}
