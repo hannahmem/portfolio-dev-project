@@ -1,4 +1,4 @@
-Um projeto Rocketseat
+Um projeto Rocketseat, design de Millena Martins
 
 ![image](https://github.com/user-attachments/assets/84b348c6-8855-4a4c-9b47-f8613814f136)
 
@@ -9,4 +9,5 @@ Nesse projeto, trabalhei com:
 2- Posicionamento de elementos;
 3- Variáveis CSS;
 4- CSS Flexbox;
-5- CSS Grid.
+5- CSS Grid;
+6- Pseudo-class e pseudo-elements.
