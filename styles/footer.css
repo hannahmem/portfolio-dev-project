@@ -14,16 +14,31 @@ footer {
         margin-bottom: 1rem;
         padding-left: 20px;
         padding-right: 24px;
+
+        transition: ease-in-out 0.15s;
     }
+
+    .flex-container:hover {
+        border: 1.5px solid var(--color-blue);
+
+        svg path {
+            fill: var(--color-blue);
+        }
+    }
+
     
     .flex-row {
         display: flex;
         align-items: center;
         gap: 12px;
-
+        
         span {
             color: var(--color-gray-500);
             font: var(--text-md);
+        }
+
+        svg path {
+           fill: var(--color-gray-400);
         }
     }
 
@@ -40,6 +55,10 @@ footer {
     p {
         margin-bottom: 3rem;
         font: var(--text-md);
+    }
+
+    a {
+        text-decoration: none;
     }
 
     padding-bottom: 12.5rem;
